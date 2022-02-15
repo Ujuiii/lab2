@@ -27,9 +27,9 @@ class Address1
     public string Eaddress = "qwerty123@gmail.com";
     static void Main(string[] args)
     {
-        Address someAddress = new Address();
+       Address someAddress = new Address();
        Console.WriteLine($"country: {someAddress.Country};\nindex : {someAddress.Index};\ncity: {someAddress.City};\nstreet: {someAddress.Street};\nhouse: {someAddress.House};\napartment: {someAddress.Apartment}\n ");
-        Console.ReadKey();
+       Console.ReadKey();
     }
 }
 
