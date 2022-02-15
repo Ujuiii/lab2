@@ -19,16 +19,17 @@ using System.Text;
     private string StreetP = "Popudrenka street";
     private int HouseP = 3;
     private int ApartmentP = 12;
-
+   
+   
 }
 class Address1
 {
+    public string Eaddress = "qwerty123@gmail.com";
     static void Main(string[] args)
     {
-        Address someAddress = new Address();
-
-        Console.WriteLine($"country: {someAddress.Country}");
-        Console.ReadKey();
+       Address someAddress = new Address();
+       Console.WriteLine($"country: {someAddress.Country};\nindex : {someAddress.Index};\ncity: {someAddress.City};\nstreet: {someAddress.Street};\nhouse: {someAddress.House};\napartment: {someAddress.Apartment}\n ");
+       Console.ReadKey();
     }
 }
 
