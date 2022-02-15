@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
  public class Address
 {
     public int Index = 550;
@@ -18,8 +19,7 @@ using System.Text;
     private string StreetP = "Popudrenka street";
     private int HouseP = 3;
     private int ApartmentP = 12;
-
-    
+   
    
 }
 class Address1
